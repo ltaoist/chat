@@ -1,0 +1,176 @@
+body,div,dl,dt,dd,ul,ol,li,tr,td,th,
+h1,h2,h3,h4,h5,h6,hr,br,img,table,
+input,form,a,p,textarea{
+    padding:0;
+    margin:0;
+    font-family:Arial,'Microsoft YaHei','宋体';
+}
+
+ul,ol,li{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+img{
+    border:0;
+}
+
+.clearfloat {
+	zoom: 1;
+}
+.clearfloat:after {
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;
+}
+
+/*****************************************/
+
+.stream{
+    position: fixed;
+    top: 0px;
+    bottom: 160px;
+    left: 0;
+    right: 0;
+}
+
+body {
+    background: #ccc;
+    color: #333;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+.word{
+    line-height: 1.6;
+}
+
+#word{
+    width: 84%;
+    font-size: 16px;
+    padding: 10px;
+    outline: 0;
+    color: #333;
+    border: 1px solid #ccc;
+    height: 100px;
+    vertical-align: bottom;
+}
+
+#send{
+    margin-left: 4px;
+    width: 10%;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    color: #111;
+    background: #af9;
+    vertical-align: bottom;
+}
+
+.a1{
+    padding-left: 80px;
+    padding-top: 16px;
+    position: relative;
+}
+
+.a1 img{
+    width: 60px;
+    height: 60px;
+    margin: 11px 5px 5px 5px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border-radius: 4px;
+}
+
+.a1 .name{
+    font-size: 14px;
+    color: #a22;
+}
+
+.a1 .word{
+    display: inline-block;
+    margin-top: 10px;
+    background: #fff;
+    padding: 10px;
+    max-width: 60%;
+    border-radius: 4px;
+}
+
+.a2{
+    padding-right: 80px;
+    padding-top: 16px;
+    position: relative;
+    text-align: right;
+}
+
+.a2 img{
+    width: 60px;
+    height: 60px;
+    margin: 11px 5px 5px 5px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border-radius: 4px;
+}
+
+.a2 .name{
+    font-size: 14px;
+    color: #a22;
+}
+
+.a2 .word{
+    display: inline-block;
+    margin-top: 10px;
+    background: #af9;
+    padding: 10px;
+    max-width: 60%;
+    border-radius: 4px;
+}
+
+.slist{
+    padding: 10px;
+}
+
+.slist span{
+    font-size: 14px;
+    text-decoration: underline;
+    color: #47a;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.prompt{
+    line-height: 2;
+}
+
+.chat{
+    overflow: auto;
+    max-height: 90%;
+}
+
+.hide{
+    display: none;
+}
+
+.hint{
+    text-decoration: underline;
+    color: #46a;
+    cursor: pointer;
+}
